@@ -107,7 +107,7 @@ input {
     .header__link:hover {
       color: #9fadc2; }
 
-@media (max-width: 959px) {
+@media (max-width: 1023px) {
   .header__top {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -158,7 +158,7 @@ input {
     .nav__link:hover {
       color: #9fadc2; }
 
-@media (max-width: 959px) {
+@media (max-width: 1023px) {
   .nav__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -177,7 +177,7 @@ input {
     margin: auto;
     top: -0.5em; }
 
-@media (max-width: 959px) {
+@media (max-width: 1023px) {
   .section {
     padding-left: 40px;
     padding-right: 40px; } }
@@ -206,7 +206,7 @@ input {
       line-height: 30px;
       margin: 0; }
 
-@media (max-width: 959px) {
+@media (max-width: 1023px) {
   .info {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -324,7 +324,7 @@ input {
       -ms-flex-pack: justify;
           justify-content: space-between; }
   .consultation__text {
-    width: 412px; }
+    width: 45%; }
   .consultation__topper {
     font-size: 24px;
     line-height: 30px;
@@ -335,16 +335,19 @@ input {
     line-height: 27px;
     color: #3e3e3e; }
   .consultation__form {
-    width: 380px; }
+    width: 45%; }
 
-@media (max-width: 959px) {
+@media (max-width: 1023px) {
   .consultation {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
     .consultation__text, .consultation__form {
-      width: 100%; } }
+      width: 100%;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
 
 .form {
   display: -webkit-box;
@@ -378,16 +381,18 @@ input {
     color: #b9c1ce; }
   .input:focus {
     border: 2px solid #0075ff; }
+  .input:hover {
+    -webkit-box-shadow: 0 0 5px 1px #0075ff;
+            box-shadow: 0 0 5px 1px #0075ff; }
 
 .testimonials {
   display: grid;
-  gap: 150px;
   grid-template-columns: repeat(3, 240px);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-@media (max-width: 959px) {
+@media (max-width: 1023px) {
   .testimonials {
     grid-template-columns: repeat(1, 240px);
     -webkit-box-pack: center;
@@ -436,7 +441,7 @@ input {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 412px; }
+    width: 45%; }
   .contact__topper {
     font-style: normal;
     font-size: 14px;
@@ -453,9 +458,9 @@ input {
     .contact__phone:hover, .contact__address:hover, .contact__email:hover {
       color: #9fadc2; }
   .contact__form {
-    width: 413px; }
+    width: 45%; }
 
-@media (max-width: 959px) {
+@media (max-width: 1023px) {
   .contact {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
